@@ -1,0 +1,10 @@
+* Disassembler
+
+Desmontador de assembly de RISCV32
+
+** Testes
+#+begin_src shell
+cd sample-tests;
+./run-disassembler.sh;              # runs disassembler on test cases
+python grade-results.py my_output; # grades output based on expected result
+#+end_src
